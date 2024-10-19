@@ -32,7 +32,7 @@
 }
 .gallery-item {
   display: flex;
-  width: calc((100% - 48px) / 3);
+  width: calc((100% - 90px) / 3);
 }
 
 .feedback-form {
@@ -47,7 +47,6 @@
   gap: 15px;
 }
 
-/* Стилі для лейблів */
 .feedback-form label {
   font-size: 16px;
   font-weight: bold;
@@ -57,7 +56,6 @@
   gap: 8px;
 }
 
-/* Стилі для полів введення */
 .feedback-form input[type='email'],
 .feedback-form textarea {
   padding: 10px;
@@ -68,14 +66,12 @@
   transition: border-color 0.3s;
 }
 
-/* Зміна кольору при фокусі */
 .feedback-form input[type='email']:focus,
 .feedback-form textarea:focus {
   border-color: #007bff;
   outline: none;
 }
 
-/* Стилі для кнопки */
 .feedback-form button {
   background-color: #007bff;
   color: white;
@@ -87,12 +83,10 @@
   transition: background-color 0.3s;
 }
 
-/* Ефект при наведенні на кнопку */
 .feedback-form button:hover {
   background-color: #0056b3;
 }
 
-/* Додаткові стилі для поля textarea */
 .feedback-form textarea {
   resize: vertical;
   min-height: 120px;
