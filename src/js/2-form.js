@@ -4,8 +4,8 @@ const messageInput = form.elements.message;
 
 function saveFormData() {
   const formData = {
-    email: emailInput.value,
-    message: messageInput.value,
+    email: emailInput.value.trim(),
+    message: messageInput.value.trim(),
   };
   localStorage.setItem('feedback-form-state', JSON.stringify(formData));
 }
